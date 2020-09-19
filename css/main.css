@@ -1,0 +1,44 @@
+body {
+  font-family: "Crimson Text", serif;
+}
+.height {
+  min-height: 100vh;
+}
+.title-underline {
+  width: 200px;
+  height: 5px;
+  margin: 0 auto;
+}
+.height-80 {
+  min-height: 80vh;
+}
+/* image */
+.about-picture {
+  background: url(../img/pexels-pixabay-60008.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#filler,
+#progress {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url(../img/pexels-pixabay-60008.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
